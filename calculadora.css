@@ -1,37 +1,40 @@
 body {
-    background-color: rgb(247, 142, 142);
+  background-color: rgb(247, 142, 142);
 }
 .btn {
-    background-color: pink;
-    color:black;
-    font-size: 18px;
-    font-weight: bold;
+  background-color: pink;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
 }
-.btn:houver, .btn-primary:houver{
-    background-color: white;
+.btn:houver,
+.btn-primary:houver {
+  background-color: white;
 }
 .container {
-    text-align: center;
+  text-align: center;
 }
 .img-circle {
-    margin:auto;
-    
+  margin: auto;
 }
 #output {
-    max-width: 300px;
-    margin:auto;
-    margin-bottom: 50px;
-    border-radius: 5px;
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 5px;
 }
 strong {
-    color:red;
-    font-size: 18px;
+  color: red;
+  font-size: 18px;
 }
 .panel-footer {
-    font-size: 12px;
-    text-align: center;
-    height: 30px;
-  }
-  #link-1 {
-    text-decoration: none;
-  }
+  font-size: 12px;
+  text-align: center;
+  height: 30px;
+}
+#link-1 {
+  text-decoration: none;
+}
+#blimpar {
+  font-size: 12px;
+}

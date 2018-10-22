@@ -34,7 +34,7 @@ function iniciarCalculo(simbolo) {
 
 function escreve(mensagem) {
   var output = document.querySelector("#output");
-  output.innerHTML = '<strong>' + mensagem + '</strong>';
+  output.innerHTML = "<strong>" + mensagem + "</strong>";
 }
 
 function calcular(simbolo, n1, n2) {
@@ -67,5 +67,10 @@ function calcular(simbolo, n1, n2) {
     case "/":
       numeroCalculado = n1 / n2;
   }
-  return '<strong>' + numeroCalculado + '</strong>';
+  return "<strong>" + numeroCalculado + "</strong>";
+}
+
+function limparCalculadora() {
+  var mensagem = "0";
+  output.innerHTML = "<strong>" + mensagem + "</strong>";
 }
